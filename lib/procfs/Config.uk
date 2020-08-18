@@ -1,0 +1,3 @@
+config LIBPROCFS
+	bool "procfs: proc file system"
+	default y

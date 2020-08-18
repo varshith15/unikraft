@@ -1,0 +1,4 @@
+config LIBUKMYLIB
+       bool "ukmylib: Simple print"
+       default n
+select LIBNOLIBC if !HAVE_LIBC
